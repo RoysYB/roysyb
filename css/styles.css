@@ -1,0 +1,160 @@
+/*..................................tag selectors...............................*/
+p
+{
+  line-height: 2;
+}
+.htwo
+{
+  font-weight: normal;
+}
+a
+{
+  color: #11999E;
+}
+
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 562.5% ;/*in case of font 16px=1em=100% .   % and em are dynamic so they inherit their values . fit to the screen if zoomed in or out but get added to the parent size EG. if body is 90% and h1is 25% it gets added up on h1 so that it  becomes 115% font size
+  ther is rem which does not get affected by parent coding*/
+  margin: 50px auto 0px auto;
+  padding-top: 50px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  }
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+h3
+{   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 40px;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover
+{
+  color: #eaf6f6;
+}
+.ptag
+{
+  color: #eaf6f6;
+}
+.top-container{
+  background-color: #d3f4ff;
+position: relative;
+      padding: 10px;
+}
+.middle-container
+{
+
+
+}
+.bottom-container
+{
+background-color: #66BFBF;
+margin-top: 50px;
+height: 100px;
+}
+
+.cloud1{
+  position:absolute;
+  right: 400px;
+
+}
+.cloud2{
+  position: absolute;
+}
+.skill-row
+{
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+}
+.c
+{float: left;
+ width: 25%;
+ padding-right: 30px;
+}
+.sql
+{
+  width: 25%;
+  float: right;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+.p1
+{
+color: #40514E;
+padding-top: 20px;
+text-align: center;
+width: 30%;
+margin: 0 auto 0 auto;
+}
+.hr1
+{
+  border-color: #EAF6F6;
+      height: 0;
+      border-style: none;
+      border-top-style: dotted;
+      width: 10%;
+      border-width: 15px;
+  }
+.hr2
+{
+  border-color: #EAF6F6;
+      height: 0;
+      border-style: none;
+      border-top-style: dotted;
+      width: 10%;
+      border-width: 15px;
+
+}
+
+
+.btn {
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #14396A !important;
+  font-size: 17px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+}
+.btn:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #30E3CB,  #2bc4ad);
+  background: -ms-linear-gradient(top,  #30E3CB,  #2bc4ad);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2bc4ad));
+  background: -moz-linear-gradient(top,  #30E3CB,  #2bc4ad);
+}
+
+.conactmessage
+{
+  width: 40%;
+  margin:40px auto 40px;
+}
+.footer-link
+{
+  margin-top: 20px;
+}
